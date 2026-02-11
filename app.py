@@ -90,4 +90,18 @@ if st.button("Generate My Routine"):
     else:
         st.error("No products match your criteria. Please adjust your concerns or allergy guard.")
 
+
 st.caption("Developed as an AI Principles Project | Knowledge-Based Expert System")
+
+# --- 4. Copyright Section (Bottom of Page) ---
+st.markdown("---")
+current_year = datetime.now().year
+st.markdown(
+    f"""
+    <div class="footer">
+        © {current_year} AI Skin Consultant. All Rights Reserved.<br>
+        Built for Principles of AI Project.
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
