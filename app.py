@@ -11,6 +11,19 @@ st.markdown("""
     .stButton>button { background-color: #000; color: #fff; border-radius: 8px; height: 3.5em; width: 100%; }
     .time-header { padding: 10px 0; border-bottom: 2px solid #000; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
     .product-info { padding: 10px 0; }
+    /* Footer Styling */
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        border-top: 1px solid #eee;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -93,5 +106,13 @@ if st.button("Generate My Routine"):
 
 st.caption("Developed as an AI Principles Project | Knowledge-Based Expert System")
 
-
-
+# --- 4. Copyright Footer ---
+st.markdown(
+    """
+    <div class="footer">
+        <p>© 2026 AI Skin Consultant. All Rights Reserved. <br>
+        <b>Made by Manav Upadhyay and Ashwat Patil</b></p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
