@@ -1,1 +1,1 @@
-Skincare is a web-based platform that helps users understand skincare, explore products, follow personalized routines, and learn about different skin types and common skin concerns. It provides simple guidance to help users maintain a healthy skincare routine.
+
